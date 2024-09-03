@@ -63,7 +63,7 @@ function SettingsPage() {
                     <div key={person.type} className="person">
                         <img src={`/${person.type}.png`} alt={person.type} />
                         <br/>
-                        <h1>{person.type}</h1>
+                     
                         <input
                             type="number"
                             value={person.count}
